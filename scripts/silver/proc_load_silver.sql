@@ -1,13 +1,14 @@
 /*
 ============================================
-Create Silver Tables
+Stored Procedure : Load Silver Layer (Bronze -> Silver)
 ===========================================
 Script Purpose:
-  This script creates the Silver procedure into the Silver schema.
+  This stored procedure creates the ETL (Extract Transform Load) process to populate the Silver schema from the bronze schema.
   It performs the following actions:
-  - Truncates the Silver tables before loading data.
+  - Truncates the Silver tables.
+  - Insert transformed and cleansed data from Bronze into silver tables.
   Usage example EXEC silver.load_silver;
-*/
+*/ 
 
 
 
