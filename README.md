@@ -12,3 +12,6 @@ The Data architecture of this project follow an architecture of **Bronze** **Sil
 **Silver Layer**: This layer includes data cleaning, standardization, and normalization processes to prepare data for analysis.<br />
 **Gold Layer**: In gold Layer the data are ready for analytics
 
+The current study represents my first step into Data Warehousing, where I gained valuable knowledge about ETL pipeline processes. However, one omission in this repository is that during the ETL process I did not include quality checks for each layer. In future work, I plan to place greater emphasis on implementing and tracking data quality at every stage of the pipeline.
+
+Special Thanks to [@DataWithBaraa](https://github.com/DataWithBaraa) for his guidance. 
